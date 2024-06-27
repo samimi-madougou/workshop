@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding:20px;
+}
+
+section{
+    padding:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sect1{
+    background-color: orange;
+}
+
+.sect2{
+    background-color: green;
+}
+
+.sect3{
+    background-color: gray;
+}
+
+.sect4{
+    background-color: darkblue;
+}
+
+.enfant1{
+    background-color: red;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div_text, .div_image{
+    padding:10px;
+    width: 40%;
+}
+
+.div_text{
+    background-color: beige;
+}
+
+.div_image{
+    background-color: brown;
+}
+
+.enfant2{
+    background-color: blue;
+    padding:10px
+}
+
+footer{
+    background-color: aqua;
+    padding: 20px;
+}
