@@ -22,13 +22,13 @@ section{
     background-color: green;
 }
 
-.sect3{
+/* .sect3{
     background-color: gray;
 }
 
 .sect4{
     background-color: darkblue;
-}
+} */
 
 .enfant1{
     background-color: red;
@@ -37,26 +37,71 @@ section{
     justify-content: center;
     gap: 20px;
 }
-
-.div_text, .div_image{
-    padding:10px;
-    width: 40%;
+.enfant01 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.enfant02 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .div_text{
-    background-color: beige;
+    padding:20px;
+    width: 40%;
 }
-
+.div_text p{
+    margin:10px;
+}
+.div_image {
+    padding: 10px;
+    width: 40%;
+}
+.div_image1{
+    padding: 10px;
+        width: 40%;
+}
+.div_image2 {
+    padding: 10px;
+    width: 40%;
+}
 .div_image{
     background-color: brown;
 }
 
-.enfant2{
-    background-color: blue;
-    padding:10px
+.enfant002{
+    padding:10px;
+    margin-left:250px;
+    
+}
+.but{
+    display:flex;
+    flex-direction: column;
+   text-align:center;
+    width:800px;
+    margin-left:490px;
+    display: block;
+}
+.but button {
+    font-size: 18px;
+    padding: 12px 24px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.enfant002 button,
+.but button {
+    font-size: 18px;
+    padding: 12px 24px;
+    color: blue;
+    /* Couleur du texte */
 }
 
+
 footer{
-    background-color: aqua;
-    padding: 20px;
+   
+    background-color: cornflowerblue;
 }

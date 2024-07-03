@@ -1,0 +1,128 @@
+
+/* .footer-content {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff; */
+/* } */
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a::before {
+    content: "> ";
+    color: #fff;
+    margin-right: 5px;
+}
+
+/* .footer-section .socials a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+} */
+
+/* .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+} */
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Styles pour la section1 */
+ .section1 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 20px;
+     
+     /* Ajout de votre margin-left */
+ }
+
+ .section1 img {
+     margin-top: 20px;
+     max-width: 100%;
+     height: auto;
+ }
+
+
+.cas1 {
+    flex: 1;
+}
+
+.cas1 h2 {
+    margin: 20px;
+}
+
+/* Styles pour cas2 */
+.cas2 {
+    flex: 1;
+}
+
+.cas2 h2 {
+    margin: 30px;
+}
+.cas1,.cas2,.cas3{
+    min-width: 250px;
+}
+
+/* Styles pour cas3 */
+.cas3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cas3 .social-icons {
+    margin-top: 10px;
+}
+
+.cas3 .social-icons i {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.cas3 .social-icons i:hover {
+    color: #ddd;
+}
+
+@media only screen and (min-width:500px) and (max-width:900px){
+    body{
+        background-color: yellow;
+    }
+    
+    
+}
